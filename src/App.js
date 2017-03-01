@@ -13,7 +13,7 @@ class App extends Component {
 
   componentDidMount() {
 
-    const url = "https://api.wmata.com/NextBusService.svc/json/jPredictions?StopID=1001156"
+    const url = "https://api.wmata.com/NextBusService.svc/json/jPredictions?StopID=1001878"
     const opts = {
       method: "GET",
       headers: {
